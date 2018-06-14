@@ -10,5 +10,11 @@ class WelcomeController extends Controller
   {
     return view('welcome');
   }
+
+  public function contact()
+  {
+    // return 'contact'; view関数を使わずにテキストを返す
+    return view('contact');
+  }
     //
 }

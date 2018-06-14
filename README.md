@@ -12,8 +12,11 @@
 - [ドットインストール](https://dotinstall.com/lessons/basic_laravel_v2)  
 
 ## 一言めも
-- [ ] `artisan`はLaravelに含まれるユーティリティコマンド
-- [ ]
+- `artisan`はLaravelに含まれるユーティリティコマンド
+- 配列と`compact`関数
+- phpタグ <??>
+- Laravelのテンプレートエンジンの`blade`書式　{{}}
+
 
 ## 疑問めも
 - [ ] controller作成時にデフォルトでResourceが作られない

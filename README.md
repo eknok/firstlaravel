@@ -13,12 +13,12 @@
 ## 一言めも
 - `artisan`はLaravelに含まれるユーティリティコマンド
 - 配列と`compact`関数
-- phpタグ <?  ?>
-- Laravelのテンプレートエンジンの`blade`書式　{{}}
+- phpタグ `<? $hoge ?>`
+- Laravelのテンプレートエンジンの`blade`書式　`{{ $hoge }}`
 
 
 ## 疑問めも
-- [ ] controller作成時にデフォルトでResourceが作られない
+- [x] controller作成時にデフォルトでResourceが作られない
 
 ## めもコマンド
 
@@ -41,5 +41,8 @@
 `$ php artisan help コマンド`  
 `$ php artisan help make:controller`
 
-- DB確認（コンソール?）
+- DB確認（コンソール?）  
 `$ php artisan tinker`
+
+- migrationファイル作成
+`$ php artisan make:migration create_user_table`

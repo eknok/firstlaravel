@@ -19,6 +19,7 @@
 
 ## 疑問めも
 - [x] controller作成時にデフォルトでResourceが作られない
+- [x] sample
 
 ## めもコマンド
 
